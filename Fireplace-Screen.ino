@@ -106,13 +106,7 @@ void routeServer () {
   server.on("/screenDown", HTTP_GET, screenDown);
   server.on("/screenStop", HTTP_GET, screenStop);
 
-  server.on("/fireplaceOn", HTTP_GET, fireplaceOnOff);
-  server.on("/fireplaceHeat", HTTP_GET, fireplaceHeat);
-  server.on("/fireplaceTimer", HTTP_GET, fireplaceTimer);
-  server.on("/fireplaceDimmer", HTTP_GET, fireplaceDimmer);
-  server.on("/fireplaceSpeed", HTTP_GET, fireplaceSpeed);
-  server.on("/fireplaceA", HTTP_GET, fireplaceA);
-  server.on("/fireplaceB", HTTP_GET, fireplaceB);
+
 
   server.onNotFound(handleNotFound);
 }
