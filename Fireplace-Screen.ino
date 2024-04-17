@@ -102,7 +102,10 @@ void routeServer () {
             F("ESP8266 Controller Basement"));
     });
     
-
+    
+  server.on("/screenUp", HTTP_GET, screenUp);
+  server.on("/screenDown", HTTP_GET, screenDown);
+  server.on("/screenStop", HTTP_GET, screenStop);
 
   server.on("/fireplaceOn", HTTP_GET, fireplaceOnOff);
   server.on("/fireplaceHeat", HTTP_GET, fireplaceHeat);
