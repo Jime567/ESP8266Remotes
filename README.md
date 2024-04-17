@@ -1,5 +1,5 @@
 # ESP8266Remotes
-This repository has a couple of arduino files that can each be loaded onto an ESP8266 to control home media devices that use IR or RC signals. Each file creates a webserver with endpoints that can be called to control the devices. It also uses [Fauxmo](https://github.com/vintlabs/fauxmoESP) to emulate a Wemo device so it can be controlled by Amazon Echo to turn on and off the device.  
+This repository has a couple of arduino files that can each be loaded onto an ESP8266 to control home media devices that use IR or RC signals. Each file creates a webserver with endpoints that can be called to control the devices. It also uses [Fauxmo](https://github.com/vintlabs/fauxmoESP) to emulate a Wemo device so that it can be controlled by Amazon Echo to turn on and off the device.  
 
 ### SimpleExampleIR.ino
 This file contains a simple implementation of an IR-controlled device. It uses the [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266) library to send IR signals to control a device. 
