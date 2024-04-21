@@ -20,7 +20,6 @@ RCSwitch rf = RCSwitch();
 
 void setup() { 
   Serial.begin(115200);
-  irsend.begin();
 
   rf.enableTransmit(radio);
   rf.setProtocol(1);
